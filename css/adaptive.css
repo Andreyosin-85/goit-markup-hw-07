@@ -100,13 +100,14 @@
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-hero-tab.jpg);
     }
-    
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-hero-tab-2x.jpg);
         }
+    }
     .hero-title {
         margin-bottom: 36px;
         font-size: 56px;
@@ -135,7 +136,7 @@
         margin-bottom: 48px;
     }
     /* ------TEAM------ */
-        .team-title {
+    .team-title {
         margin-bottom: 72px;
     }
     .team-list {
@@ -204,8 +205,9 @@
         width: 356px;
         height: 420px;
         margin: 72px 24px 0 0;
-    } 
+    }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .team > .container {
         padding: 0 108px;
